@@ -71,6 +71,10 @@
   background: var(--color-secundary-dark);
 }
 
+.buttons-container a img {
+  margin-right: 2.4rem;
+}
+
 .total-connections {
   font-size: 1.4rem;
 
@@ -95,19 +99,37 @@
       "buttons buttons total";
   }
 
-  .logo-containter {
+  .logo-container {
     grid-area: logo;
+    align-self: center;
+    margin: 0;
+    text-align: left;
   }
 
   .hero-image {
     grid-area: hero;
+    justify-self: end;
+  }
+
+  .logo-container h2 {
+    text-align: initial;
+    font-size: 3.6rem;
+  }
+
+  .logo-container img {
+    height: 100%;
   }
 
   .buttons-container {
     grid-area: buttons;
+    justify-content: flex-start;
+  }
+  .buttons-container a {
+    font-size: 2.4rem;
   }
 
   .total-connections {
     grid-area: total;
+    justify-self: end;
   }
 }
