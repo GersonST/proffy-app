@@ -2,6 +2,7 @@ import React from "react";
 import PageHeader from "../../components/PageHeader";
 
 import "./styles.css";
+import TeacherItem from "../../components/TeacherItem/index";
 
 export default function TeacherList() {
   return (
@@ -24,6 +25,16 @@ export default function TeacherList() {
           </div>
         </form>
       </PageHeader>
+
+      <main>
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
+      </main>
     </div>
   );
 }
