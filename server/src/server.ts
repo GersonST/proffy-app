@@ -14,3 +14,8 @@ app.get("/", (request, response) => {
 //Faz o app ouvir uma requisição http através de uma porta no caso Localhost 3333
 
 app.listen(3333);
+
+//O Knex serve para modificar a forma de escrita na relacao com o banco de dados sqlite3
+
+//SELECT = FROM users  - antes
+// knex('users').select('*')  - depois
