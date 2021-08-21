@@ -12,7 +12,7 @@ export default function TeacherItem() {
           alt="Gerson Severo"
         />
         <div>
-          <strong>Gerson Severo</strong>
+          <strong>Gerson Trindade</strong>
           <span>Programação</span>
         </div>
       </header>
